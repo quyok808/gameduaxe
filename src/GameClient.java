@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class GameClient {
 
-    private static final String SERVER_ADDRESS = "113.22.33.38";
+    private static final String SERVER_ADDRESS = "25.33.107.197";
     private static final int SERVER_PORT = 9876;
     private static final int FINISH_LINE = 650; // Vạch đích
     private static Map<String, Integer> playerCooldowns = new ConcurrentHashMap<>(); // Lưu thời gian hồi chiêu của từng người chơi
