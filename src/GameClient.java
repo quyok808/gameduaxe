@@ -238,7 +238,7 @@ public class GameClient {
             this.playerName = playerName;
 
             // Khởi tạo vị trí mặc định (nếu cần)
-            playerPositions.putIfAbsent(playerName, 0);
+//            playerPositions.putIfAbsent(playerName, 0);
         }
 
         // Trong phương thức paintComponent trong RacePanel
@@ -300,7 +300,7 @@ public class GameClient {
                         } // Nếu Boost đã sẵn sàng
                         else {
                             g.setColor(Color.GREEN);
-                            g.drawString("BOOST: READY", x + 20, y - 10); // Hiển thị "READY" nếu Boost có thể sử dụng
+                            g.drawString("BOOST: READY", x, y - 20); // Hiển thị "READY" nếu Boost có thể sử dụng
                         }
                     }
                 }
