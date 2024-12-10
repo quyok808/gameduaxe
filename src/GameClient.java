@@ -106,7 +106,7 @@ public class GameClient {
                 // Kiểm tra nếu xe đạt hoặc vượt qua vạch đích
                 if (position >= FINISH_LINE) {
                     JOptionPane.showMessageDialog(frame, "Player " + player + " wins the race!");
-                    playerPositions.put(player, 0);
+                    System.exit(0);
                 }
             }
         }
